@@ -3,6 +3,7 @@ body {
     color: #434455;
     background-color: #ffffff;
     font-size: 16px;
+    line-height: 1.5;
 }
 
 ul {
@@ -22,6 +23,7 @@ a {
     font-size: 18px;
     line-height: 1.16667;
     letter-spacing: 0.03em;
+    color:#2E2F42;
 }
 .logotype .logo {
     color: #4D5AE5;
@@ -30,10 +32,11 @@ a {
 .nav-link a {
     font-weight: 500;
     font-size: 16px; 
-    line-height: 1.5;
     letter-spacing: 0.02em;
+    color:#2E2F42;
 }
-.nav-link a:hover {
+.nav-link a:hover,
+.nav-link a:focus {
     color: #404BBF;
 }
 .nav-link .nav-studio:active {
@@ -42,7 +45,6 @@ a {
 
 .contacts a {
     font-size: 16px;
-    line-height: 1.5;
     letter-spacing: 0.02em;
     font-style: normal;
     color:#434455;
@@ -58,6 +60,7 @@ a {
 .main-title {
     color: #FFFFFF;
     font-size: 56px;
+    line-height: 1.071;
     font-weight: 700;
     text-align: center;
     letter-spacing: 0.02em;
@@ -68,23 +71,24 @@ a {
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 0.04em;
-    line-height: 1.5;
     cursor: pointer;
 }
-.button:hover {
+.button:hover,
+.button:active {
     background-color: #404BBF;
 }
 
 .our-features h3 {
     color: #2E2F42;
     font-size: 20px;
+    line-height: 1.2;
     font-weight: 500;
     letter-spacing: 0.02em;
 }
 .our-features p {
     font-size: 16px;
-    line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .our-team {
@@ -95,6 +99,8 @@ a {
     font-weight: 700;
     color: #2E2F42;
     text-align: center;
+    line-height: 1.111;
+    letter-spacing: 0.02em;
 }
 .our-team .person {
     background-color: #FFFFFF;
@@ -108,6 +114,8 @@ a {
 }
 .our-team .person p {
     text-align: center;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
 }
 
 .our-portfolio h2 {
@@ -115,18 +123,29 @@ a {
     font-weight: 700;
     color: #2E2F42;
     text-align: center;
+    letter-spacing: 0.02em;
+    line-height: 1.111;
 }
 .our-portfolio h3 {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     letter-spacing: 0.02em;
+    line-height: 1.2;
+}
+.our-portfolio p {
+    line-height: 1.2;
+    color: #434455;
+    letter-spacing: 002em;
 }
 
 .footer {
     background-color: #2E2F42;
-    color: #FFFFFF;
+    color: #F4F4FD;
     font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-weight: 400;
 }
 
 .footer-logotype {
@@ -137,7 +156,7 @@ a {
     font-size: 18px;
     line-height: 1.16667;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: #F4F4FD;
 }
 .footer-logotype .logo {
     color: #4D5AE5;
