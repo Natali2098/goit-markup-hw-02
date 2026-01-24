@@ -29,7 +29,9 @@ a {
     color: #4D5AE5;
 }
 
-.nav-link a {
+.nav-link .nav-studio,
+.nav-link .nav-contacts,
+.nav-link .nav-portfolio {
     font-weight: 500;
     font-size: 16px; 
     letter-spacing: 0.02em;
